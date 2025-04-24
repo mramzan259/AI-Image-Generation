@@ -19,8 +19,6 @@ db = SQLAlchemy(app)
 login_manager = LoginManager(app)
 CORS(app)  # Enable CORS to allow requests from React frontend
 
-# old without paying
-# client = OpenAI(api_key='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')
 
 client = OpenAI(api_key=os.getenv(OpenAikey))
 
