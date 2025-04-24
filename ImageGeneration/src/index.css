@@ -1,0 +1,16 @@
+/* @import "~@fortawesome/fontawesome-free/css/all.css"; */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.text-stroke-3 {
+    -webkit-text-stroke: 3px #3eddcd;
+    color: transparent;
+}
